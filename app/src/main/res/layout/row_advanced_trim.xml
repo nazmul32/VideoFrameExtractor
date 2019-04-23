@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="120dp">
+    <View
+        android:layout_alignParentLeft="true"
+        android:id="@+id/left_border"
+        android:layout_width="1dp"
+        android:background="@color/color_black"
+        android:layout_height="120dp" />
+    <View
+        android:layout_alignParentRight="true"
+        android:id="@+id/right_border"
+        android:layout_width="1dp"
+        android:background="@color/color_black"
+        android:layout_height="120dp" />
+    <ImageView
+        android:layout_toLeftOf="@+id/right_border"
+        android:layout_toRightOf="@+id/left_border"
+        android:id="@+id/image_view"
+        android:layout_width="198dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY" />
+    <ImageView
+        android:id="@+id/trim_selection_start_marker"
+        android:visibility="gone"
+        android:layout_height="120dp"
+        android:layout_width="10dp"
+        android:layout_alignLeft="@id/left_border"
+        android:scaleType="fitXY"
+        android:layout_marginRight="1dp"
+        android:src="@drawable/ic_selection_start_marker"/>
+    <ImageView
+        android:id="@+id/trim_selection_end_marker"
+        android:visibility="gone"
+        android:layout_height="120dp"
+        android:layout_width="10dp"
+        android:layout_alignRight="@id/right_border"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="1dp"
+        android:src="@drawable/ic_selection_end_marker"/>
+</RelativeLayout>

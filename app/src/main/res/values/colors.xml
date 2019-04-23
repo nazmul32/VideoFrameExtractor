@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E1E1E</color>
+    <color name="colorPrimaryDark">#1E1E1E</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="menu_item_selected_color">#00C48D</color>
+    <color name="menu_item_unselected_color">#141414</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_transparent_white">#80FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="bottom_tab_primary_color">#282828</color>
+    <color name="gradient_color">#0E0E0E</color>
+    <color name="bottom_tab_gray_color">#D4D4D4</color>
+</resources>
